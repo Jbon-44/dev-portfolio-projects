@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3f8f2;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #06103e, cornflowerblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.typing-indicator{
+
+    text-align: center;
+}
+
+
+#chat {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+
+
+}
+button:hover{
+    background-color: cornflowerblue;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/*p {*/
+/*    animation: fadeIn 0.5s ease-in-out;*/
+/*}*/
+
+/*@keyframes fadeIn {*/
+/*    from {*/
+/*        opacity: 0;*/
+/*        transform: translateY(20px);*/
+/*    }*/
+/*    to {*/
+/*        opacity:1;*/
+/*        transform: translateY(0);*/
+/*    }*/
+/*}*/
+

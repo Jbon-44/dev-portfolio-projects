@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(89, 169, 150);
+}
+
+img{
+  width: 200px;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+
+text-align: center;
+
+}
+
+h3{
+
+text-align: center;
+
+font-family: 'Courier New', monospace;
+
+}
+
+
+h4 {
+  font-family: 'Courier New', monospace;
+
+}
+
+.centered-list {
+
+  text-align: center;
+
+}
+
+.centered-list ul, .centered-list ol{
+ 
+ list-style-position: inside;
+ display:inline-block;
+ text-align:left;
+
+}

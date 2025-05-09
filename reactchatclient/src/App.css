@@ -1,0 +1,102 @@
+/* App.css */
+
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f4f6;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  outline: none;
+}
+
+/* Styling for login page */
+.LoginPage {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for chat page */
+.ChatPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.chat-window {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.chat-message {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message strong {
+  color: #007bff;
+}
+
+input[type="text"] {
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+}
+
+button {
+  width: 100%;
+}
