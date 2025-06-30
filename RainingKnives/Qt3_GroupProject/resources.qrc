@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/knivesBackground.png</file>
+        <file>images/cloud.png</file>
+        <file>images/knife.png</file>
+        <file>images/defaultAvatar.png</file>
+        <file>images/birthdayCake.png</file>
+        <file>images/character.png</file>
+        <file>images/fallingKnivesMain.png</file>
+        <file>audio/BossMain.wav</file>
+        <file>audio/hit.ogg</file>
+        <file>audio/yell10.wav</file>
+    </qresource>
+</RCC>
